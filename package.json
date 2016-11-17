@@ -1,0 +1,19 @@
+{
+  "name": "thuynv06",
+  "version": "1.0.0",
+  "description": "exercise module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuynv06/nodejs.git"
+  },
+  "author": "thuynv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thuynv06/nodejs/issues"
+  },
+  "homepage": "https://github.com/thuynv06/nodejs#readme"
+}
