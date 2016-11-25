@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/default.min.css">
+    <script src="js/highlight.pack.js"></script>
+
+</head>
+<body>
+    <pre>
+        <code>
+            {data}
+        </code>
+    </pre>
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script>
+        $(function(){
+            $('pre code').each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
+</body>
+</html>
